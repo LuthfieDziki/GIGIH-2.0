@@ -13,11 +13,6 @@ function App() {
           type={spotify.album.type}
           artist={spotify.album.artists[0].name}
         />
-
-        {/* <img src={data.album.images[0].url} alt="true" />
-        <p>{data.album.name}</p>
-        <p>{data.artists[0].name}</p>
-        */}
       </div>
     </div>
   );

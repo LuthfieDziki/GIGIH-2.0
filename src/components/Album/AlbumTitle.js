@@ -5,7 +5,8 @@ const AlbumTitle = (props) => {
     <div className="title">
       <h2>{props.name}</h2>
       <h4>
-        <span>{props.type}, </span>
+        {props.type}
+        <td></td>
         {props.artist}
       </h4>
     </div>

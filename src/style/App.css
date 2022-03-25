@@ -1,16 +1,18 @@
 .playlist {
   background-color: #000000;
-  border: 1px solid #ffffff;
+  border: 3px solid #e97c00;
   width: 300px;
   overflow: hidden;
   padding: 25px;
-  border-radius: 10px;
+  border-radius: 50px;
   margin: 10px auto;
 }
 
 .playlist img {
   width: 200px;
   margin: 0 50px;
+  border-radius: 50%;
+  border: 3px groove #e6e6e6;
 }
 
 .btn {
@@ -30,12 +32,12 @@
 
 .title {
   color: #ffffff;
-  margin: 10px 0;
+  margin: 10px 5px;
   text-align: center;
 }
 
 body {
-  background-color: #35ebf1;
+  background-color: #93f0f3;
   font-family: sans-serif;
   box-sizing: border-box;
 }
@@ -44,18 +46,7 @@ h2 {
   margin: 10px 0;
   text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td {
+  text-align: center;
+  padding: 3px;
 }
