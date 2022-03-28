@@ -1,6 +1,60 @@
-.App {
+.playlist img {
+  width: 200px;
+  margin: 0 50px;
+  border-radius: 50%;
+  border: 3px groove #e6e6e6;
+}
+
+body {
+  background-color: #93f0f3;
   font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* penambahan css Homework 6 */
+.Header h1 {
   text-align: center;
+  font-family: "fantasy";
+  font-size: 40px;
+}
+.card-song h1 {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 28px;
+}
+.card-song h2 {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-song {
+  color: whitesmoke;
+  background-color: #000000;
+  border: 3px solid #e97c00;
+  overflow: hidden;
+  padding: 25px;
+  border-radius: 50px;
+  margin: 10px auto;
+  width: 30%;
+  text-align: center;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+.btn {
+  margin: 0 115px;
+  padding: 8px 10px;
+  background-color: #589b01;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40%;
   align-items: center;
-  justify-content: center;
+}
+.btn:hover {
+  background-color: #fc7474;
+  transition-duration: 0.5s;
+  box-shadow: 0 3px 10px 0 rgb(255, 255, 255);
 }
