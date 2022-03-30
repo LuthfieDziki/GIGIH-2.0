@@ -4,7 +4,9 @@
   border-radius: 50%;
   border: 3px groove #e6e6e6;
 }
-
+.playlist {
+  align-items: center;
+}
 body {
   background-color: #93f0f3;
   font-family: sans-serif;
@@ -41,6 +43,7 @@ body {
   height: auto;
   text-align: center;
   position: relative;
+  display: table;
 }
 .btn {
   margin: 0 115px;
@@ -54,6 +57,33 @@ body {
   align-items: center;
 }
 .btn:hover {
+  background-color: #fc7474;
+  transition-duration: 0.5s;
+  box-shadow: 0 3px 10px 0 rgb(255, 255, 255);
+}
+
+.card-one {
+  border: 1px solid #192f1f;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px 50px;
+  margin: 100px;
+  background-color: #5fe68e;
+}
+.card-one button {
+  margin: 0 115px;
+  padding: 8px 10px;
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40%;
+  align-items: center;
+  padding: 10px 20px;
+  width: 150px;
+}
+.card-one button:hover {
   background-color: #fc7474;
   transition-duration: 0.5s;
   box-shadow: 0 3px 10px 0 rgb(255, 255, 255);
