@@ -1,7 +1,12 @@
 import { Component } from "react";
 import "./style/App.css";
 import Song from "./components/Album/index";
+import React, { useEffect, useState } from 'react'
+import Tracks from '../components/Tracks';
+import SearchBar from '../components/SearchBar';
+import Button from '../components/Button';
 import Data from "./data/spotify";
+import Home from "./pages/Home"
 
 class App extends Component {
   state = {
@@ -50,7 +55,7 @@ class App extends Component {
             <div className="card-one">
               <h1>SEARCH SONG</h1>
               <input onChange={this.forChange} />
-              <br></br>
+              <br><Home /></br>
               <button onClick={this.forSearch}>Cari</button>
               <div>{this.state.track.map((item) => item.name)}</div>
             </div>
