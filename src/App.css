@@ -1,0 +1,136 @@
+.card-one {
+  border: 1px solid #192f1f;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  margin: 0px 200px;
+  background-color: #d8fde5;
+}
+
+body {
+  background-color: #011107;
+  text-align: center;
+}
+.form-playlist {
+  text-align: center;
+  border: 1px solid #152219;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #9dd3b0;
+  margin-top: 30px;
+  padding: 10px 0px;
+  margin: 0px 200px;
+}
+
+.playlist h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.form-playlist input {
+  height: 40px;
+  width: 230px;
+  background-color: #d8fde5;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.form-playlist textarea {
+  height: 40px;
+  width: 230px;
+  background-color: #d8fde5;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+input {
+  height: 40px;
+  width: 230px;
+  background-color: #d8fde5;
+  border-radius: 4px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: #3f6d4f;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.profile button {
+  border: 1px solid hsl(0, 0%, 99%);
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #32754a;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d8fde5;
+  color: black;
+  border: 2px solid black;
+}
+
+.card-search img {
+  margin-top: 35px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 20%;
+  float: left;
+  margin-left: 30px;
+}
+.card-search {
+  border: 1px solid #192f1f;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #69c188;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px 200px;
+}
+
+.card-search h1 {
+  font-size: 23px;
+  padding-top: 2px;
+  margin-top: 20px;
+}
+
+.card-search h3 {
+  margin-top: -5px;
+  font-size: 23px;
+}
+
+.card-search h2 {
+  margin-top: -5px;
+  font-size: 18px;
+}
+
+.card-login {
+  border: 1px solid #192f1f;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  margin: 150px 150px;
+  background-color: #d8fde5;
+}
+
+.container hr {
+  margin-top: 40px;
+}
